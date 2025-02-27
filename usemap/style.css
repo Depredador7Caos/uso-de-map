@@ -1,0 +1,152 @@
+:root {
+  --color-text-black: #000000;
+  --color-white: #f6f6f6;
+  --color-primary: #009578;
+  --color-secondary: #faa307;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-height: 250px;
+  border: 1px solid black;
+}
+
+.btn-display-flex {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  color: var(--color-text-black);
+  padding: 0.25rem;
+  margin: 0.2rem;
+  text-align: center;
+  border-radius: 5px;
+  transition: 0.3s all ease-in-out;
+}
+
+.btn-op {
+  display: none;
+}
+
+/********************* SIZE BUTTON'S **********************/
+.btn-gd {
+  max-width: 90%;
+  min-width: 61%;
+  height: 4.5rem;
+  font-size: 1.5rem;
+}
+
+.btn-md {
+  max-width: 60%;
+  min-width: 31%;
+  height: 3.25rem;
+  font-size: 1.1rem;
+}
+
+.btn-sm {
+  max-width: 30%;
+  min-width: 15%;
+  height: 2.1275rem;
+  font-size: 0.8rem;
+}
+
+/********************* COLOR'S BUTTON'S **********************/
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 500;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-black);
+  font-weight: 500;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/********************* HOVER'S BUTTON'S **********************/
+.btn-scale:hover {
+  transform: scale(0.9);
+}
+
+.btn-scale-x:hover {
+  transform: scaleX(1.1);
+}
+
+
+/********************* DIMENTIONAL'S COL'S **********************/
+
+.col-1 {
+  width: 8.3%;
+}
+
+.col-2 {
+  width: 16.6%;
+}
+
+.col-3 {
+  width: 25.0%;
+}
+
+.col-4 {
+  width: 33.5%;
+}
+
+.col-5 {
+  width: 41.8%;
+}
+
+.col-6 {
+  width: 50.0%;
+}
+
+.col-7 {
+  width: 58.3%;
+}
+
+.col-8 {
+  width: 66.6%;
+}
+
+.col-9 {
+  width: 75.0%;
+}
+
+.col-10 {
+  width: 83.3%;
+}
+
+.col-11 {
+  width: 91.6%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+
+
+.border {
+  border: 1px solid black;
+}
